@@ -1,0 +1,66 @@
+body
+{
+	background-color: white;
+}
+h1
+{
+	color: red;
+	font-size: 20px;
+	font-style: arial;
+	
+}
+
+h2,h3
+{
+	color: black;
+}
+
+div
+{
+
+	border: 4px solid yellowgreen;
+	width: 75%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	padding: 3%;
+	
+	color: whitesmoke;
+	border-radius: 5%;
+}
+
+.circle{
+    margin:1px;
+    width:100px;
+    background:whitesmoke;
+    height:100px;
+    text-align:center;
+    border-radius: 50%;
+    center
+}
+
+.b1
+{
+	background-color: blue;
+	color: greenyellow;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	text-align: center;
+	margin: 10px;
+	cursor: painter;
+	transition: color 0.3s ease;
+	width: 250px;
+
+}
+
+.b1:hover{
+	color: red;
+	background-color: yellowgreen;
+	width: 350px;
+	height: 350px;
+}
+
+
+
+
